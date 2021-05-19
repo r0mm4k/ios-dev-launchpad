@@ -18,4 +18,4 @@ Projects | 1 / 4 | 25%
 
 Projects / Topics | Screenshots
 --- | ---
-[Project 1](01-Project1) - *Random Colors* | <img src="01-Project1/screenshots/screen1.gif" width="100" alt="screen"/> |
+[Project 1](01-Project1/RandomColors) - *Random Colors* | <img src="01-Project1/screenshots/screen1.gif" width="100" alt="screen"/> |
