@@ -37,7 +37,7 @@ class CardSelectionVC: UIViewController {
             cardImageView.widthAnchor.constraint(equalToConstant: 250),
             cardImageView.heightAnchor.constraint(equalToConstant: 350),
             cardImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            cardImageView.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -75)
+            cardImageView.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -75),
         ])
     }
     
@@ -48,7 +48,7 @@ class CardSelectionVC: UIViewController {
             stopButton.widthAnchor.constraint(equalToConstant: 260),
             stopButton.heightAnchor.constraint(equalToConstant: 50),
             stopButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            stopButton.topAnchor.constraint(equalTo: cardImageView.bottomAnchor, constant: 30)
+            stopButton.topAnchor.constraint(equalTo: cardImageView.bottomAnchor, constant: 30),
         ])
     }
     
@@ -59,19 +59,25 @@ class CardSelectionVC: UIViewController {
             resetButton.widthAnchor.constraint(equalToConstant: 115),
             resetButton.heightAnchor.constraint(equalToConstant: 50),
             resetButton.leadingAnchor.constraint(equalTo: stopButton.leadingAnchor),
-            resetButton.topAnchor.constraint(equalTo: stopButton.bottomAnchor, constant: 20)
+            resetButton.topAnchor.constraint(equalTo: stopButton.bottomAnchor, constant: 20),
         ])
     }
     
     func configureRulesButton() {
         view.addSubview(rulesButton)
         
+        rulesButton.addTarget(self, action: #selector(presentRulesVC), for: .touchUpInside)
+        
         NSLayoutConstraint.activate([
             rulesButton.widthAnchor.constraint(equalToConstant: 115),
             rulesButton.heightAnchor.constraint(equalToConstant: 50),
             rulesButton.trailingAnchor.constraint(equalTo: stopButton.trailingAnchor),
-            rulesButton.centerYAnchor.constraint(equalTo: resetButton.centerYAnchor)
+            rulesButton.centerYAnchor.constraint(equalTo: resetButton.centerYAnchor),
         ])
+    }
+    
+    @objc func presentRulesVC() {
+        present(RulesVC(), animated: true)
     }
 
 

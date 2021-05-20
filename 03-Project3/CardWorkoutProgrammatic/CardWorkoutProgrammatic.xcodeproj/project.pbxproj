@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		914E5FD726568F110007B543 /* RulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914E5FD626568F110007B543 /* RulesVC.swift */; };
 		91B660E726564CC7004CAC66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B660E626564CC7004CAC66 /* AppDelegate.swift */; };
 		91B660E926564CC7004CAC66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B660E826564CC7004CAC66 /* SceneDelegate.swift */; };
 		91B660F026564CC9004CAC66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91B660EF26564CC9004CAC66 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		914E5FD626568F110007B543 /* RulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesVC.swift; sourceTree = "<group>"; };
 		91B660E326564CC7004CAC66 /* CardWorkoutProgrammatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardWorkoutProgrammatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91B660E626564CC7004CAC66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91B660E826564CC7004CAC66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				91B660E626564CC7004CAC66 /* AppDelegate.swift */,
 				91B660E826564CC7004CAC66 /* SceneDelegate.swift */,
 				91B660FA26564EFE004CAC66 /* CardSelectionVC.swift */,
+				914E5FD626568F110007B543 /* RulesVC.swift */,
 				91B660FC265653E3004CAC66 /* CWButton.swift */,
 				91B660EF26564CC9004CAC66 /* Assets.xcassets */,
 				91B660F126564CC9004CAC66 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91B660FD265653E3004CAC66 /* CWButton.swift in Sources */,
+				914E5FD726568F110007B543 /* RulesVC.swift in Sources */,
 				91B660FB26564EFE004CAC66 /* CardSelectionVC.swift in Sources */,
 				91B660E726564CC7004CAC66 /* AppDelegate.swift in Sources */,
 				91B660E926564CC7004CAC66 /* SceneDelegate.swift in Sources */,
