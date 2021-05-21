@@ -10,7 +10,7 @@ Solutions to Sean Allen's "iOS Dev Launchpad" projects.
 
 Type | Number | Completion
 :--- | :---: | :---:
-Projects | 1 / 4 | 25%
+Projects | 3 / 4 | 75%
 
 ## Preview
 
@@ -19,3 +19,5 @@ Projects | 1 / 4 | 25%
 Projects / Topics | Screenshots
 --- | ---
 [Project 1](01-Project1/RandomColors) - *Random Colors* | <img src="01-Project1/RandomColors/Screenshots/screen1.gif" width="100" alt="screen"/> |
+[Project 2](02-Project2/CardWorkout) - *Card Workout*<br/> (Storyboard UI)| <img src="02-Project2/CardWorkout/Screenshots/screen1.gif" width="100" alt="screen"/> |
+[Project 3](03-Project3/CardWorkoutProgrammatic) - *Card Workout*<br/> (Programmatic UI) | <img src="03-Project3/CardWorkoutProgrammatic/Screenshots/screen1.gif" width="100" alt="screen"/> |
