@@ -14,6 +14,7 @@
 		91B660F326564CC9004CAC66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B660F126564CC9004CAC66 /* LaunchScreen.storyboard */; };
 		91B660FB26564EFE004CAC66 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B660FA26564EFE004CAC66 /* CardSelectionVC.swift */; };
 		91B660FD265653E3004CAC66 /* CWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B660FC265653E3004CAC66 /* CWButton.swift */; };
+		91D244582657AD2500BB9DC2 /* CardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D244572657AD2500BB9DC2 /* CardDeck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		91B660F426564CC9004CAC66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91B660FA26564EFE004CAC66 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
 		91B660FC265653E3004CAC66 /* CWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWButton.swift; sourceTree = "<group>"; };
+		91D244572657AD2500BB9DC2 /* CardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDeck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				91B660FA26564EFE004CAC66 /* CardSelectionVC.swift */,
 				914E5FD626568F110007B543 /* RulesVC.swift */,
 				91B660FC265653E3004CAC66 /* CWButton.swift */,
+				91D244572657AD2500BB9DC2 /* CardDeck.swift */,
 				91B660EF26564CC9004CAC66 /* Assets.xcassets */,
 				91B660F126564CC9004CAC66 /* LaunchScreen.storyboard */,
 				91B660F426564CC9004CAC66 /* Info.plist */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91D244582657AD2500BB9DC2 /* CardDeck.swift in Sources */,
 				91B660FD265653E3004CAC66 /* CWButton.swift in Sources */,
 				914E5FD726568F110007B543 /* RulesVC.swift in Sources */,
 				91B660FB26564EFE004CAC66 /* CardSelectionVC.swift in Sources */,
